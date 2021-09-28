@@ -1,5 +1,5 @@
 n = input('How much numbers do you want : ')
-n  = int(n)
+n = int(n)
 
 
 def fib(n):
