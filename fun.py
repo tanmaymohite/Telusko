@@ -1,4 +1,8 @@
-car=['tesla','tata','suzuki','mahindra']
+def person(name,**data):
+    print(name)
+    for t in i,j
 
-for c in car:
-    print(c)
+person('Tanmay',age=16,city='pune',mob=9309314063)
+
+
+

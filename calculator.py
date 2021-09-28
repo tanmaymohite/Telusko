@@ -6,27 +6,27 @@ for fun in funcition:
 
 def add():
     a = f+s
-    print('Ans: '+str(a))
+    print('\nAns: '+str(a))
 
 def sub():
     su = f-s
-    print('Ans: '+str(su))
+    print('\nAns: '+str(su))
 
 def div():
     d = f/s
-    print('Ans: '+str(d))
+    print('\nAns: '+str(d))
 
 def multi():
     m = f*s
-    print('Ans: '+str(m))
+    print('\nAns: '+str(m))
 
 t = int(input('\nChosse your choice: '))
 
 f = input('\nEnter the first number: ')
-f = float(f)
+f = int(f)
 
 s = input('Enter the second number: ')
-s = float(s)
+s = int(s)
 
 
 
