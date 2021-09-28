@@ -1,4 +1,4 @@
-n = input('How much do you want : ')
+n = input('How much numbers do you want : ')
 n  = int(n)
 
 
