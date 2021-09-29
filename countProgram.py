@@ -16,3 +16,4 @@ even,odd = np(
     lst)
 
 print('even : {} and odd : {}'.format(even,odd))
+print('print'+str(lst))
