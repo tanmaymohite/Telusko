@@ -6,6 +6,7 @@ for n in range(2,num):
         print('Not prime')
         break
 
+
 else:
     print('Prime')
 

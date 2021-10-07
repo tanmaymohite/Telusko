@@ -21,3 +21,8 @@ def fib(n):
 
 fib(n)
 
+def repeat():
+    n = input('How much numbers do you want : ')
+    n = int(n)
+
+    fib(n)
