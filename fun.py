@@ -1,8 +1,12 @@
+from functools import reduce
 
-lisa = [5,3,6,9,4,1,2,5,7,4,3]
+lst = [2,6,4,3,5,9,8,7,1,3]
 
-evns = list(filter(lambda n:n%2==0,lisa))
-print(evns)
+even = list(filter(lambda n : n%2==0,lst))
 
+double = list(map(lambda n : n * 2,even ))
 
-
+sum = reduce(lambda a,b: a+b,double)
+print(even)
+print(double)
+print(sum)
