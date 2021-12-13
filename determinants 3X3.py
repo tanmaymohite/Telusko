@@ -27,7 +27,14 @@ h = int(h)
 i = input('Enter the value of i : ')
 i = int(i)
 
-D = a*(e*i)-(f*h)
-print(D)
+D1 = a*((e*i)-(f*h))
+D2 = -b*((d*i)-(f*g))
+D3 = c*((d*h)-(e*g))
+
+
+D = D1+D2+D3
+
+print('Ans: '+str(D))
+
 
 
