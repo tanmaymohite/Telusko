@@ -1,2 +1,6 @@
-D = a*((e*i)-(f*h))-b*((d*i)-(f*g)+c*((d*h)-(e*g)))
-print('Ans : '+str(D))
+def me(person,age):
+    print('hey my name is '+person+' and my age is '+age+ ' I am studing diploma ,I am in goverment polytechnic pune, I like python ')
+
+me('tanmay','16')
+me('Mayur','15')
+me('Ayush','79')
