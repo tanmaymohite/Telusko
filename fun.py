@@ -1,6 +1,17 @@
-def me(person,age):
-    print('hey my name is '+person+' and my age is '+age+ ' I am studing diploma ,I am in goverment polytechnic pune, I like python ')
+class computer:
+    def __init__(self,cpu,ram):
+        self.cpu = cpu
+        self.ram = ram
 
-me('tanmay','16')
-me('Mayur','15')
-me('Ayush','79')
+    def machine(self):
+        print('config is ',self.cpu,self.ram)
+
+
+comp1 = computer('ryzen 5','16gb')
+comp2 = computer('i5','8gb')
+
+comp1.machine()
+comp2.machine()
+
+
+
