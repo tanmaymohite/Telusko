@@ -14,3 +14,14 @@ print(h)
 
 x = math.sqrt(49)
 print(x)
+
+
+k = math.ceil(1.4)
+l = math.floor(1.4)
+
+print(k)
+print(l)
+
+
+j = math.pi
+print(j)
