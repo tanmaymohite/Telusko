@@ -22,5 +22,15 @@ T = Y*x1
 print('T = '+str(T))
 L = T-D
 print('L = '+str(L))
-print('\nAns = '+str(Y)+'x'+'+'+str(X)+'y'+'-'+str(L)+'='+'0')
+
+if X == -2:
+    N = X/X
+    N = N + 1
+    print(X)
+
+    if X == -3:
+        N = X / X
+        N = N + 2
+        print(X)
+#print('\nAns = '+str(Y)+'x'+str(X)+'y'+'-'+str(L)+'='+'0')
 
