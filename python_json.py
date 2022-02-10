@@ -1,7 +1,13 @@
 import json
 
-x = '{"name":"Tanmay","age":16,"city":"pcmc","div":"L1","college":"GPP","place":"shivajinagar","district":"pune"}'
+x = {
+    'name':'tanmay',
+    'age':'16',
+    'city':'pcmc'
 
-y = json.loads(x)
+}
 
-print(y["name"])
+y = json.dumps(x)
+
+print(y)
+
