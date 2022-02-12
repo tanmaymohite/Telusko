@@ -18,3 +18,5 @@ print(c,d)
 Ans = (a*d)-(b*c)
 
 print('Ans = '+str(Ans))
+
+
